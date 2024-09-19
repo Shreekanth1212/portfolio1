@@ -10,6 +10,11 @@
 /* Default styles for mobile devices (max-width: 768px) */
 @media only screen and (max-width: 768px) {
 
+    /* General Section Spacing */
+    section {
+      padding: 10px 0;
+    }
+  
     /* Navigation Menu */
     #desktop-nav {
       display: none; /* Hide desktop nav on mobile */
@@ -19,7 +24,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding: 20px;
+      padding: 10px;
       position: relative;
       background-color: #fff;
     }
@@ -39,7 +44,7 @@
     }
   
     .menu-links li {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
   
     .shree-span {
@@ -58,25 +63,25 @@
     /* Profile Section */
     #profile {
       text-align: center;
-      padding: 20px;
+      padding: 15px 0;
     }
   
     #profile .section__pic-container img {
-      width: 150px;
-      height: 150px;
+      width: 140px;
+      height: 140px;
       border-radius: 50%;
     }
   
     #profile .section__text {
-      padding: 20px;
+      padding: 10px;
     }
   
     #profile h1 {
-      font-size: 28px;
+      font-size: 26px;
     }
   
     #profile p.section__text__p2 {
-      font-size: 20px;
+      font-size: 18px;
     }
   
     .btn-container {
@@ -86,13 +91,13 @@
     }
   
     .btn-container .btn {
-      margin: 10px 0;
+      margin: 5px 0;
     }
   
     #socials-container {
       display: flex;
       justify-content: center;
-      margin-top: 20px;
+      margin-top: 10px;
     }
   
     /* About Section */
@@ -100,7 +105,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 20px;
+      padding: 10px;
     }
   
     #about .about-containers {
@@ -111,7 +116,7 @@
   
     #about .text-container {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 10px;
     }
   
     /* Experience Section */
@@ -119,11 +124,11 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 20px;
+      padding: 10px;
     }
   
     #experience .details-container {
-      margin-bottom: 20px;
+      margin-bottom: 15px;
       text-align: center;
     }
   
@@ -132,17 +137,17 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 20px;
+      padding: 10px;
     }
   
     #projects .details-container {
-      margin-bottom: 20px;
+      margin-bottom: 15px;
       text-align: center;
     }
   
     /* Contact Section */
     #contact {
-      padding: 20px;
+      padding: 10px;
       text-align: center;
     }
   
@@ -153,13 +158,13 @@
     }
   
     #contact .contact-info-container {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
   
     /* Footer */
     footer {
       text-align: center;
-      padding: 20px;
+      padding: 10px;
     }
   
     footer .nav-links {
@@ -168,14 +173,14 @@
     }
   
     footer .nav-links li {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
-  
   }
   
-  /* For very small mobile screens (max-width: 480px) */
-  @media only screen and (max-width: 480px) {
   
+  /* For very small mobile screens (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+
     /* Further adjustments for smaller screens */
     #profile .section__pic-container img {
       width: 120px;
@@ -187,7 +192,7 @@
     }
   
     #profile p.section__text__p2 {
-      font-size: 18px;
+      font-size: 16px;
     }
   
     .btn-container .btn {
@@ -200,4 +205,3 @@
       height: 30px;
     }
   }
-  
